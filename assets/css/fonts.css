@@ -1,0 +1,23 @@
+@font-face{
+	font-family: "GalsLight";
+	src:url("../fonts/GalsLight/GalsLight.eot");
+	src: local("GalsLight"), local("GalsLight");
+	src:url("../fonts/GalsLight/GalsLight.eot?#iefix")format("embedded opentype"),
+		url("../fonts/GalsLight/GalsLight.woff") format("woff"),
+		url("../fonts/GalsLight/GalsLight.TTF") format("truetype");
+		
+	font-style: normal;
+	font-weight: normal;
+
+}
+
+@font-face{
+	font-family: "Gals";
+	src:url("../fonts/Gals/Gals.eot");
+	src:url("../fonts/Gals/Gals.eot?#iefix")format("embedded opentype"),
+		url("../fonts/Gals/Gals.woff") format("woff"),
+		url("../fonts/Gals/Gals.TTF") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+
+}
