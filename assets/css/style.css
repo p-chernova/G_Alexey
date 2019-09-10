@@ -1,0 +1,589 @@
+*{
+	padding: 0;
+	margin:0;
+}
+
+a{
+
+}
+h1, h3, p, a{
+	font-family: GalsLight;
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*Первый кадр*/
+.frame_1{
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:53%;
+}
+ 
+.frame_1-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+.overlay_1 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+ 
+.overlay_1 h1 {
+    text-align:center;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 9.5em;
+    margin-top:17%;
+}
+
+
+.overlay_1 h3 {
+    text-align:center;
+    color:#fff;
+    font-size: 2.5em;
+    /*margin-top:17%;*/
+}
+
+.overlay_1 p {
+	text-align: center;
+	position: relative;
+	z-index: ;
+	
+}
+
+.overlay_1 a {
+    color:#fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    
+
+}
+
+
+
+/*Втрой кадр*/
+
+.frame_2{
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:53%;
+}
+ 
+.frame_2-bg__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+.overlay_2 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+ 
+.overlay_2 h1 {
+    text-align:center;
+    color: #fff;
+    font-size: 2.5em;
+    margin-top:6%;
+}
+
+.images{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.images_img{
+	position: relative;
+    margin-right: 5%;
+    z-index: 3;
+    position: relative;
+    margin-top: 6%;
+    text-align: center;
+
+}
+
+
+/*Третий кадр*/
+.frame_3{
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:41%;
+}
+ 
+.frame_3-bg__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+.overlay_3 {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+ 
+.overlay_3 h1 {
+    text-align:center;
+    color:#000;
+    font-size: 2em;
+    margin-top:10%;
+    margin-left: 43%;
+    white-space: pre;
+    z-index: 2;
+    position: absolute;
+
+   
+}
+
+
+.overlay_3 p{
+    margin-left: 50%;
+    position: relative;
+    z-index: 3;
+    margin-top: 20%;
+    
+}
+
+.overlay_3 a{
+    font-family: 'Gals';
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.8em;
+    color: #A30CFF;
+
+
+}
+
+
+.overlay_3 .rocket-icon{
+    position: absolute;
+    z-index: 3;
+    background:url(../icon/rocket.svg) no-repeat left center; 
+    display:inline-block;
+    vertical-align:bottom;
+    padding-left: 130px;
+    padding-top:55px;
+    width: 322px;
+    height: 122px;
+    
+    
+
+}
+
+
+
+ 
+/*фУТЕР*/
+
+footer{
+	position: absolute;
+	width: 100%;
+	height: 321px;
+	background-color: #19181D;
+}
+
+.text_footer{
+    font-family: 'GalsLight';
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 6%;
+   
+    
+}
+
+.text_footer a{
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    outline: none;
+    margin-right: 70px;
+}
+
+
+.text_footer a:hover{
+    color: #FF0CE7;
+}
+
+.text_about{
+    color:#000;
+
+}
+
+
+.ico_en_ru{
+    width: 174px;
+    height: 60px;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 90px;
+    z-index: 1;
+    
+    
+}
+
+.ico_en_ru img{
+
+    margin-right: 25px;
+}
+
+}
+
+.IT_copy{
+
+    position: absolute;
+    z-index: 2;
+}
+
+.IT_copy h1{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 90px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .frame_1 {
+        background: url('../video/Galaxy.jpg') center center / cover no-repeat;
+    }
+ 
+    .frame_1-bg__video {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    /*первый кадр*/
+    .overlay_1 h1 {
+        font-size: 8em;
+}
+
+
+    .overlay_1 h3 {
+        font-size: 1.5em;
+    }
+
+ 
+
+    .overlay_1 a {
+         font-size: 1em;
+        
+    }
+    /*второй кадр*/
+    .overlay_2 h1 {
+        font-size: 1.5em;
+}
+
+    .images{
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        position: relative;
+}
+
+
+
+    .images_img{
+        height: 187px;
+        width:200px ;
+
+}
+    /*третий кадр*/
+
+    .overlay_3 h1 {
+        font-size: 1.4em;
+       /* margin-top:10%;*/
+        margin-left: 44%;
+        white-space: pre;
+
+       
+    }
+
+    .overlay_3 p{
+        margin-left: 47%;
+        
+    }
+
+    .overlay_3 a{
+        font-size: 1.3em;
+    
+
+    }
+
+    .overlay_3 .rocket-icon{
+        background:url(../icon/rocket1024.svg) no-repeat left center; 
+        padding-left: 130px;
+        padding-top:55px;
+        width: 70px;
+        height: 70px;    
+    
+
+}
+
+    /*футер*/
+
+    footer{
+    width: 100%;
+    height: 290px;
+    
+}
+
+    .text_footer{
+        font-family: 'GalsLight';
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        margin-top: 6%;
+       
+        
+    }
+
+    .text_footer a{
+        font-size: 1.2em;
+        margin-right: 70px;
+    }
+
+
+
+    .IT_copy h1{
+        text-align: center;
+        font-size: 1.2em;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1366px){
+    /*первый кадр*/
+    .overlay_1 h1 {
+        font-size: 7.5em;
+}
+
+
+    .overlay_1 h3 {
+        font-size: 1.2em;
+    }
+
+ 
+
+    .overlay_1 a {
+         font-size: 1em;
+        
+    }
+
+
+}
+
+@media screen and (max-width: 800px){
+    /*первый кадр*/
+    .overlay_1 h1 {
+        font-size: 6em;
+}
+
+
+    .overlay_1 h3 {
+        font-size: 1em;
+    }
+
+ 
+
+    .overlay_1 a {
+         font-size: 0.7em;
+        
+    }
+    /*второй кадр*/
+    .overlay_2 h1 {
+        font-size: 1em;
+}
+
+    .images{
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        position: relative;
+}
+
+
+
+    .images_img{
+        height: 100px;
+        width:113px ;
+
+}
+    /*третий кадр*/
+
+    .overlay_3 h1 {
+        font-size: 1em;
+       /* margin-top:10%;*/
+        margin-left: 40%;
+        white-space: pre;
+
+       
+    }
+
+    .overlay_3 p{
+        margin-left: 42%;
+        
+    }
+
+    .overlay_3 a{
+        font-size: 0.9em;
+    
+
+    }
+
+    .overlay_3 .rocket-icon{
+        background:url(../icon/rocket1024.svg) no-repeat left center; 
+        padding-left: 130px;
+        padding-top:55px;
+        width: 70px;
+        height: 70px;    
+    
+
+}
+
+    /*футер*/
+
+    footer{
+    width: 100%;
+    height: 230px;
+    
+}
+
+    .text_footer{
+        font-family: 'GalsLight';
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+        margin-top: 6%;
+       
+        
+    }
+
+    .text_footer a{
+        font-size: 1em;
+        margin-right: 80px;
+    }
+
+
+
+    .IT_copy h1{
+        text-align: center;
+        font-size: 1em;
+
+    }
+
+    .ico_en_ru{
+        direction: none;
+    }
+    .ico_en_ru img{
+
+   display: none;
+}
+
+
+}
+
+@media screen and (max-width: 1440px){
+    .overlay_1 h1 {
+        font-size: 8em;
+}
+
+
+    .overlay_1 h3 {
+        font-size: 1.5em;
+    }
+
+ 
+
+    .overlay_1 a {
+         font-size: 2em;
+        
+    }
+    /*второй кадр*/
+    .overlay_2 h1 {
+        font-size: 2em;
+}
+
+    .images{
+        width: 100%;
+        height: 40%;
+        text-align: center;
+        position: relative;
+}
+
+
+
+    .images_img{
+        height: 180px;
+        width:193px ;
+
+}
+    .overlay_3 h1 {
+        font-size: 1.5em;
+       /* margin-top:10%;*/
+        margin-left: 44%;
+        white-space: pre;
+
+       
+    }
+
+    .overlay_3 p{
+        margin-left: 50%;
+        
+    }
+
+    .overlay_3 a{
+        font-size: 1.3em;
+    
+
+    }
+
+    .overlay_3 .rocket-icon{
+        background:url(../icon/rocket1024.svg) no-repeat left center; 
+        padding-left: 130px;
+        padding-top:55px;
+        width: 70px;
+        height: 70px;    
+    
+
+}
+  
+
+}
+
